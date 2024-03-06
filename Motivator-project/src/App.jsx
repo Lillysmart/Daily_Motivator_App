@@ -2,6 +2,7 @@ import React from "react";
 import { ReactDOM } from "react";
 import { useState } from "react";
 import "./App.css";
+import {Quotes} from "./Qoutes.jsx"
 
 export const App = () => {
   const  {data , setData}= useState()
@@ -38,7 +39,8 @@ const handleNewQUote =()=>{
         <li>Feeling stuck in a rut and in need of a mental pick-me-up?</li>
         <li>Looking for a spark to reignite your passion and enthusiasm?</li>
       </ul>
-      <img src="./click (1).png" width={100} onClick={handleNewQUote} />
+      <img src></img>="./click (1).png" width={100} onClick={handleNewQUote} />
+      <Quotes/>
     
     </>
   );
